@@ -79,52 +79,44 @@ img {
   content: ">>";
 }
 
-/* Media query for tablets and smaller screens */
 @media (max-width: 1024px) {
   body {
-    padding-bottom: 100px; /* Adjust padding for smaller screens */
+    padding-bottom: 100px;
   }
 
   .frame {
-    width: 80%; /* Make the frame full-width on smaller screens */
+    width: 80%;
     max-width: none;
-    padding: 8px; /* Reduce padding for smaller screens */
+    padding: 8px;
   }
 
-  /* Center align the text on smaller screens */
   h1 {
     text-align: center;
   }
 
-  /* Adjust font size for smaller screens */
   h1 {
     font-size: 24px;
   }
 
-  /* Center the galleries on smaller screens */
   .gallery {
     text-align: center;
   }
 
-  /* Reduce the size of the arrows on smaller screens */
   .arrow {
     height: 40px;
     font-size: 14px;
   }
 }
 
-/* Media query for mobile devices */
 @media (max-width: 768px) {
   body {
-    padding-bottom: 50px; /* Further reduce padding for mobile screens */
+    padding-bottom: 50px;
   }
 
-  /* Adjust font size for mobile screens */
   h1 {
     font-size: 20px;
   }
 
-  /* Reduce the size of the arrows for mobile screens */
   .arrow {
     height: 30px;
     font-size: 12px;
